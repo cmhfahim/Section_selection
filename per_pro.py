@@ -10,7 +10,7 @@ def load_courses_from_csv(csv_path):
     df["Title"] = df["Title"].astype(str)
     return df
 
-csv_path = "D:\\CODING\\Web Dev\\CLASS-ROUTINE-252_cleaned.csv"
+csv_path = "CLASS-ROUTINE-252_cleaned.csv"
 courses_df = load_courses_from_csv(csv_path)
 
 st.title("📚 UIU Course Selector - Summer 2025")
